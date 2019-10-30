@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yd1e6c');
+  src:  url('../fonts/icomoon.eot?yd1e6c#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yd1e6c') format('truetype'),
+    url('../fonts/icomoon.woff?yd1e6c') format('woff'),
+    url('../fonts/icomoon.svg?yd1e6c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook{
+  text-decoration: none
+}
+.icon-facebook:before {
+  content: "\ea90";
+  color: #5B5A58;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.icon-instagram{
+  text-decoration: none
+}
+.icon-instagram:before {
+  content: "\ea92";
+  color: #5B5A58;
+  padding-right: 20px;
+  text-decoration: none
+}
+.icon-flickr4:before {
+  content: "\eaa6";
+  color: #5B5A58;
+  padding-right: 20px;
+  text-decoration: none
+}
+.icon-flickr4{
+  text-decoration: none
+}
